@@ -1,0 +1,25 @@
+================================================================================
+TENDER EXTRACTION REPORT
+================================================================================
+
+DEADLINE:
+  Date: 08.11.2024
+  Time: 11:30
+
+MACHINERY:
+  - 20x Kamion Vetëshkarkues Me Kapacitet Mbajtës Mbi
+  - 50x Vinç Me Kapacitet Jo Me Pak Se
+
+STAFF:
+  - 1x Inxhinier Ndertimi
+  - 1x Inxhinier Hidroteknik
+  - 1x Inxhinier Elektrik
+  - 1x Inxhinier Gjeolog
+  - 1x Inxhinier Mjedisi
+  - 1x Inxhinier Topograf
+  - 1x Inxhinier Mekanik
+
+CERTIFICATIONS:
+  - Licencë Profesionale
+
+================================================================================

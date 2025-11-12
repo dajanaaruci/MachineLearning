@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "pdf_file": "DST_URA_E_GRYKSHIT_II (2).pdf",
+    "extraction_date": "2025-11-12T06:03:11.045339",
+    "total_pages": 117,
+    "total_chunks": 594,
+    "processing_time_seconds": 25.54,
+    "version": "8.0 - Complete"
+  },
+  "deadline": {
+    "date": "08.11.2024",
+    "time": "11:30",
+    "full": "08.11.2024 Ora 11:30",
+    "found": true
+  },
+  "machinery": [
+    {
+      "type": "Kamion Vetëshkarkues Me Kapacitet Mbajtës Mbi",
+      "quantity": 20,
+      "specifications": "mbi 20",
+      "category": "makineritë",
+      "row_number": "1"
+    },
+    {
+      "type": "Vinç Me Kapacitet Jo Me Pak Se",
+      "quantity": 50,
+      "specifications": "",
+      "category": "makineritë",
+      "row_number": "12"
+    }
+  ],
+  "staff": [
+    {
+      "position": "Inxhinier Ndertimi",
+      "quantity": 1,
+      "experience_years": 0,
+      "category": "staf"
+    },
+    {
+      "position": "Inxhinier Hidroteknik",
+      "quantity": 1,
+      "experience_years": 0,
+      "category": "staf"
+    },
+    {
+      "position": "Inxhinier Elektrik",
+      "quantity": 1,
+      "experience_years": 0,
+      "category": "staf"
+    },
+    {
+      "position": "Inxhinier Gjeolog",
+      "quantity": 1,
+      "experience_years": 0,
+      "category": "staf"
+    },
+    {
+      "position": "Inxhinier Mjedisi",
+      "quantity": 1,
+      "experience_years": 0,
+      "category": "staf"
+    },
+    {
+      "position": "Inxhinier Topograf",
+      "quantity": 1,
+      "experience_years": 0,
+      "category": "staf"
+    },
+    {
+      "position": "Inxhinier Mekanik",
+      "quantity": 1,
+      "experience_years": 0,
+      "category": "staf"
+    }
+  ],
+  "certifications": [
+    "Licencë Profesionale"
+  ],
+  "criteria_matching": {
+    "Kritere Administrative": [
+      {
+        "criterion": "Kompania duhet të jetë e regjistruar ligjërisht (NIPT, QKB, licenca etj.)",
+        "matched": true,
+        "similarity_score": 0.614,
+        "similarity_percent": 61.4,
+        "chunk_id": 99,
+        "page": 29,
+        "matched_text": "Autoriteti/Enti kontraktor duhet të ruajë konfidencialitetin sipas përcaktimeve të nenit \n16 të LPP-së"
+      },
+      {
+        "criterion": "Të mos ketë detyrime tatimore apo sigurimesh shoqërore të pashlyera",
+        "matched": true,
+        "similarity_score": 0.471,
+        "similarity_percent": 47.1,
+        "chunk_id": 85,
+        "page": 26,
+        "matched_text": "përfshirë edhe tatimet dhe taksat që zbatohen, pa përfshirë TVSH-në Nëse çmimet \nkuotohen në valutë të huaj siç përcaktohet në Njoftimin e Kontratës, atëherë ato duhet \ntë konvertohen në Lekë shqiptar..."
+      },
+      {
+        "criterion": "Të mos ketë qenë e dënuar për shkelje ligjore apo mashtrim tenderash",
+        "matched": true,
+        "similarity_score": 0.587,
+        "similarity_percent": 58.7,
+        "chunk_id": 167,
+        "page": 43,
+        "matched_text": "a) është i regjistruar në regjistrin tregtar sipas legjislacionit të vendit ku ushtron aktivitetin, ose sipas \nlegjislacionit tё posaçёm nё rastin e një organizate jofitimprurëse, ka në fushën e vepri..."
+      },
+      {
+        "criterion": "Të ketë vërtetim nga gjykata që nuk është në proces falimentimi ose likuidimi",
+        "matched": true,
+        "similarity_score": 0.602,
+        "similarity_percent": 60.2,
+        "chunk_id": 56,
+        "page": 17,
+        "matched_text": "Po \n \nJo \nX \n \nNëse është një procedurë e rishpallur, ju lutemi plotësoni të dhënat identifikuese të procedurës së anuluar: \na) Numri i referencës në sistemin e prokurimit elektronik të procedurës së ..."
+      },
+      {
+        "criterion": "Dokumentacioni të jetë plotësisht i nënshkruar, vulosur dhe në afat",
+        "matched": true,
+        "similarity_score": 0.585,
+        "similarity_percent": 58.5,
+        "chunk_id": 60,
+        "page": 19,
+        "matched_text": "Shënim: \nKëtij njoftimi duhet t’i bashkëngjitet shtojca e ndryshimeve në dokumentat e tenderit --- PAGE 20 ---\n18 \n \n \n \n \n \n(Për t’u plotësuar nga Autoriteti/Enti Kontraktor) \nNJOFTIMI PËR MODIFIKIMI..."
+      }
+    ],
+    "Kritere Teknike": [
+      {
+        "criterion": "Ofruesi duhet të përmbushë specifikimet teknike të përcaktuara në dokumentet e tenderit",
+        "matched": true,
+        "similarity_score": 0.646,
+        "similarity_percent": 64.6,
+        "chunk_id": 73,
+        "page": 24,
+        "matched_text": "këto Dokumente të Tenderit do të jenë sipas përcaktimeve të Ligjit për Prokurimin \nPublik (LPP) dhe Kushtet e Përgjithshme të Kontratës (KPP)"
+      },
+      {
+        "criterion": "Duhet të ofrohet përshkrim teknik i produkteve/shërbimeve (katalogë, broshura, certifikata)",
+        "matched": true,
+        "similarity_score": 0.609,
+        "similarity_percent": 60.9,
+        "chunk_id": 575,
+        "page": 108,
+        "matched_text": "______________________________________________________________________ \nPërshkrimi i shkurtër i punëve / mallrave / shërbimeve objekt kontrate/marreveshje kuader"
+      },
+      {
+        "criterion": "Duhet të ketë eksperiencë të ngjashme me projektet e kërkuara (referenca nga kontrata të mëparshme)",
+        "matched": true,
+        "similarity_score": 0.561,
+        "similarity_percent": 56.1,
+        "chunk_id": 84,
+        "page": 26,
+        "matched_text": "bashkangjitur me këto DT, duke përcaktuar zërat e punimeve që do të realizohen, sasitë \ndhe çmimin e tyre në rastin kur në kohën e ofertimit është e mundur (ka një projekt-\npreventiv mbi bazën e të ci..."
+      },
+      {
+        "criterion": "Pajisjet, produktet ose shërbimet duhet të jenë në përputhje me standardet ISO, EN, CE ose të tjera të përcaktuara",
+        "matched": true,
+        "similarity_score": 0.471,
+        "similarity_percent": 47.1,
+        "chunk_id": 99,
+        "page": 29,
+        "matched_text": "Autoriteti/Enti kontraktor duhet të ruajë konfidencialitetin sipas përcaktimeve të nenit \n16 të LPP-së"
+      },
+      {
+        "criterion": "Personeli i angazhuar duhet të jetë i kualifikuar dhe i certifikuar profesionalisht",
+        "matched": true,
+        "similarity_score": 0.594,
+        "similarity_percent": 59.4,
+        "chunk_id": 33,
+        "page": 12,
+        "matched_text": "Operatori ekonomik duhet të tregojë se do të angazhojë në kontratë staf me eksperiencë të \nmjaftueshme për të realizuar me sukses objektin e prokurimit Për të treguar këtë fakt \noperatori duhet të dep..."
+      }
+    ],
+    "Kritere Financiare": [
+      {
+        "criterion": "Kompania duhet të ketë gjendje financiare të qëndrueshme (bilancet e 2-3 viteve të fundit)",
+        "matched": true,
+        "similarity_score": 0.494,
+        "similarity_percent": 49.4,
+        "chunk_id": 92,
+        "page": 27,
+        "matched_text": "a) Pagesa nga ofertuesi, në vlerë monetare, në llogarinë e autoritetit/entit kontraktor;   \nb) Garanci bankare; \nc) Garanci sigurimi; \n \nDokumentet e mësipërme duhet të jenë të vlefshme gjatë gjithë p..."
+      },
+      {
+        "criterion": "Duhet të paraqesë xhiro minimale vjetore në raport me vlerën e tenderit",
+        "matched": true,
+        "similarity_score": 0.587,
+        "similarity_percent": 58.7,
+        "chunk_id": 90,
+        "page": 27,
+        "matched_text": "a) Pagesa nga ofertuesi, në vlerë monetare, në llogarinë e autoritetit/entit kontraktor;   \nb) Garanci bankare; \nc) Garanci sigurimi; \n \nDokumentet e mësipërme duhet të jenë të vlefshme gjatë gjithë p..."
+      },
+      {
+        "criterion": "Duhet të ketë kapacitet financiar për të mbuluar kostot e projektit (likuiditete, kredi, garanci bankare)",
+        "matched": true,
+        "similarity_score": 0.526,
+        "similarity_percent": 52.6,
+        "chunk_id": 84,
+        "page": 26,
+        "matched_text": "bashkangjitur me këto DT, duke përcaktuar zërat e punimeve që do të realizohen, sasitë \ndhe çmimin e tyre në rastin kur në kohën e ofertimit është e mundur (ka një projekt-\npreventiv mbi bazën e të ci..."
+      },
+      {
+        "criterion": "Garancia e ofertës (zakonisht 2-5% e vlerës së kontratës) duhet të paraqitet me afat vlefshmërie të përshtatshëm",
+        "matched": true,
+        "similarity_score": 0.704,
+        "similarity_percent": 70.4,
+        "chunk_id": 108,
+        "page": 30,
+        "matched_text": "bazë të kritereve të përcaktimit të ofertës fituese që janë përcaktuar në Njoftimin \ne Kontratës dhe në Dokumentet e Tenderit si më poshtë Opsioni 1) – Oferta Ekonomikisht më e Favorshme, bazuar në ko..."
+      }
+    ],
+    "Kritere të Cilësisë dhe Sigurisë": [
+      {
+        "criterion": "Ofertuesi duhet të ketë sisteme të menaxhimit të cilësisë (p.sh. ISO 9001)",
+        "matched": false,
+        "similarity_score": 0.0,
+        "similarity_percent": 0.0,
+        "chunk_id": null,
+        "page": null,
+        "matched_text": ""
+      },
+      {
+        "criterion": "Nëse aplikohet, duhet të ketë certifikime për siguri në punë (p.sh. ISO 45001)",
+        "matched": true,
+        "similarity_score": 0.531,
+        "similarity_percent": 53.1,
+        "chunk_id": 99,
+        "page": 29,
+        "matched_text": "Autoriteti/Enti kontraktor duhet të ruajë konfidencialitetin sipas përcaktimeve të nenit \n16 të LPP-së"
+      },
+      {
+        "criterion": "Duhet të përmbushë rregullat për mbrojtjen e mjedisit (ISO 14001)",
+        "matched": true,
+        "similarity_score": 0.583,
+        "similarity_percent": 58.3,
+        "chunk_id": 36,
+        "page": 13,
+        "matched_text": "Operatori ekonomik duhet të paraqesë një metodologji të qartë për minimizimin e ndikimit në mjedis \ntë veprës si dhe propozimet e tij për menaxhimin e riskut mjedisor dhe social (sipas Vlerësimit të \n..."
+      },
+      {
+        "criterion": "Duhet të ofrojë garanci për produktet/shërbimet për një periudhë të caktuar pas dorëzimit",
+        "matched": true,
+        "similarity_score": 0.677,
+        "similarity_percent": 67.7,
+        "chunk_id": 90,
+        "page": 27,
+        "matched_text": "a) Pagesa nga ofertuesi, në vlerë monetare, në llogarinë e autoritetit/entit kontraktor;   \nb) Garanci bankare; \nc) Garanci sigurimi; \n \nDokumentet e mësipërme duhet të jenë të vlefshme gjatë gjithë p..."
+      }
+    ],
+    "Kritere të Vlerësimit të Ofertës": [
+      {
+        "criterion": "Çmimi më i ulët (në tendera të thjeshtë)",
+        "matched": true,
+        "similarity_score": 0.618,
+        "similarity_percent": 61.8,
+        "chunk_id": 115,
+        "page": 31,
+        "matched_text": "93 të LPP-së, oferta vlerësohet anomalisht e ulët kur ajo është ulur më shumë \nse 25% të fondit limit të përllogaritur Në rast kur janë të vlefshme tre ose më shumë oferta, në përputhje me nenin \n93 t..."
+      },
+      {
+        "criterion": "Raporti më i mirë cilësi-çmim (në tendera kompleksë)",
+        "matched": true,
+        "similarity_score": 0.526,
+        "similarity_percent": 52.6,
+        "chunk_id": 330,
+        "page": 69,
+        "matched_text": "-oferta ekonomikisht më e favorshme bazuar në kosto    \n-oferta ekonomikisht më e favorshme bazuar në çmim \n   \n \nMe anë të këtij Formulari, ju informojmë se, në këtë procedurë/lot kanë marrë pjesë Of..."
+      },
+      {
+        "criterion": "Vlerësimi përfshin: Çmimin total, Cilësinë teknike, Afatet e dorëzimit, Garancitë e ofruara, Shërbimin pas-shitjes",
+        "matched": true,
+        "similarity_score": 0.605,
+        "similarity_percent": 60.5,
+        "chunk_id": 111,
+        "page": 30,
+        "matched_text": "bazë të kritereve të përcaktimit të ofertës fituese që janë përcaktuar në Njoftimin \ne Kontratës dhe në Dokumentet e Tenderit si më poshtë Opsioni 1) – Oferta Ekonomikisht më e Favorshme, bazuar në ko..."
+      }
+    ],
+    "Kritere për Përgjegjshmëri Sociale & Ligjore": [
+      {
+        "criterion": "Respektim i ligjeve të punës dhe sigurimesh shoqërore",
+        "matched": false,
+        "similarity_score": 0.0,
+        "similarity_percent": 0.0,
+        "chunk_id": null,
+        "page": null,
+        "matched_text": ""
+      },
+      {
+        "criterion": "Barazi gjinore dhe mosdiskriminim",
+        "matched": false,
+        "similarity_score": 0.0,
+        "similarity_percent": 0.0,
+        "chunk_id": null,
+        "page": null,
+        "matched_text": ""
+      },
+      {
+        "criterion": "Përdorim i qëndrueshëm i burimeve dhe mbrojtje e mjedisit",
+        "matched": true,
+        "similarity_score": 0.598,
+        "similarity_percent": 59.8,
+        "chunk_id": 36,
+        "page": 13,
+        "matched_text": "Operatori ekonomik duhet të paraqesë një metodologji të qartë për minimizimin e ndikimit në mjedis \ntë veprës si dhe propozimet e tij për menaxhimin e riskut mjedisor dhe social (sipas Vlerësimit të \n..."
+      }
+    ],
+    "Kritere të Veçanta": [
+      {
+        "criterion": "Për tendera ndërtimi: leje ndërtimi, inxhinierë të licencuar, makina të certifikuara",
+        "matched": true,
+        "similarity_score": 0.553,
+        "similarity_percent": 55.3,
+        "chunk_id": 563,
+        "page": 105,
+        "matched_text": "- Modifikim i dokumentave të tenderit \n \n- Kundërshtim i vendimit të Komisionit të Vlerësimit të Ofertave lidhur me skualifikimin e \nofertës tuaj (Citoni këtu arsyet e skualifikimit)\n- Kundërshtim i ..."
+      },
+      {
+        "criterion": "Për IT: prova koncepti (POC), performancë teknike, siguri e të dhënave (GDPR, ISO 27001)",
+        "matched": false,
+        "similarity_score": 0.0,
+        "similarity_percent": 0.0,
+        "chunk_id": null,
+        "page": null,
+        "matched_text": ""
+      },
+      {
+        "criterion": "Për shërbime konsulence: CV e ekspertëve, metodologjia e punës, afatet e zbatimit",
+        "matched": true,
+        "similarity_score": 0.539,
+        "similarity_percent": 53.9,
+        "chunk_id": 575,
+        "page": 108,
+        "matched_text": "______________________________________________________________________ \nPërshkrimi i shkurtër i punëve / mallrave / shërbimeve objekt kontrate/marreveshje kuader"
+      }
+    ],
+    "_statistics": {
+      "total_criteria": 27,
+      "matched_criteria": 23,
+      "match_percentage": 85.2
+    }
+  }
+}

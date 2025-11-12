@@ -1,0 +1,21 @@
+================================================================================
+TENDER DECISION REPORT
+================================================================================
+
+Recommendation: NO
+Overall Score: 59.6%
+
+Scores:
+  Machinery: 20.0%
+  Staff: 100.0%
+  Certifications: 20.0%
+  Criteria: 85.2%
+
+Opportunities:
+  - Adequate staff: 7 positions
+  - Strong alignment: 85.2%
+
+Risk Factors:
+  - Very tight deadline: -370 days
+  - Limited machinery: 2 items
+================================================================================
