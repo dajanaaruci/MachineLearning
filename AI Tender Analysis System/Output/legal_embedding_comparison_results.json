@@ -1,0 +1,464 @@
+{
+  "timestamp": "2025-11-23T14:44:50.582185",
+  "models_tested": 4,
+  "benchmark_scores": {
+    "paraphrase-multilingual-MiniLM-L12-v2": 26.5,
+    "paraphrase-multilingual-mpnet-base-v2": 7.67,
+    "sentence-transformers/all-MiniLM-L6-v2": 29.52,
+    "sentence-transformers/all-mpnet-base-v2": 5.96
+  },
+  "detailed_results": {
+    "paraphrase-multilingual-MiniLM-L12-v2": {
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "model_info": {
+        "name": "paraphrase-multilingual-MiniLM-L12-v2",
+        "description": "Fast multilingual model - 384 dimensions",
+        "type": "multilingual",
+        "size": "small",
+        "dimensions": 384,
+        "languages": "100+"
+      },
+      "embedding_dimension": 384,
+      "tests": {
+        "albanian": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 1.6859,
+            "avg_time_per_sentence": 0.33719
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.0813,
+            "avg_time_per_sentence": 0.01626
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.0789,
+            "avg_time_per_sentence": 0.01578
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.0775,
+            "avg_time_per_sentence": 0.01549
+          }
+        },
+        "english": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 0.0679,
+            "avg_time_per_sentence": 0.01359
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.0666,
+            "avg_time_per_sentence": 0.01332
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.0684,
+            "avg_time_per_sentence": 0.01368
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.0713,
+            "avg_time_per_sentence": 0.01425
+          }
+        }
+      },
+      "similarity_scores": {
+        "albanian": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.7259
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.8947
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.8806
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.8726
+          }
+        ],
+        "english": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.8688
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.9534
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.9089
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.9328
+          }
+        ]
+      },
+      "performance": {
+        "total_sentences": 40,
+        "total_time_seconds": 0.4636,
+        "throughput_sentences_per_second": 86.29,
+        "latency_ms_per_sentence": 11.59
+      },
+      "statistics": {
+        "shape": [
+          40,
+          384
+        ],
+        "mean": -0.000615608470980078,
+        "std": 0.23221455514431,
+        "min": -1.094994068145752,
+        "max": 0.919670581817627,
+        "norm_mean": 4.53524112701416
+      }
+    },
+    "paraphrase-multilingual-mpnet-base-v2": {
+      "model_name": "paraphrase-multilingual-mpnet-base-v2",
+      "model_info": {
+        "name": "paraphrase-multilingual-mpnet-base-v2",
+        "description": "Higher quality multilingual - 768 dimensions",
+        "type": "multilingual",
+        "size": "base",
+        "dimensions": 768,
+        "languages": "100+"
+      },
+      "embedding_dimension": 768,
+      "tests": {
+        "albanian": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 1.1118,
+            "avg_time_per_sentence": 0.22237
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.2673,
+            "avg_time_per_sentence": 0.05346
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.6186,
+            "avg_time_per_sentence": 0.12371
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.4926,
+            "avg_time_per_sentence": 0.09853
+          }
+        },
+        "english": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 0.4238,
+            "avg_time_per_sentence": 0.08476
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.2845,
+            "avg_time_per_sentence": 0.05689
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.7189,
+            "avg_time_per_sentence": 0.14379
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.2675,
+            "avg_time_per_sentence": 0.0535
+          }
+        }
+      },
+      "similarity_scores": {
+        "albanian": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.8408
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.9087
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.9147
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.9327
+          }
+        ],
+        "english": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.9446
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.9801
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.9672
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.9521
+          }
+        ]
+      },
+      "performance": {
+        "total_sentences": 40,
+        "total_time_seconds": 1.7084,
+        "throughput_sentences_per_second": 23.41,
+        "latency_ms_per_sentence": 42.71
+      },
+      "statistics": {
+        "shape": [
+          40,
+          768
+        ],
+        "mean": 0.002054845681414008,
+        "std": 0.10992401838302612,
+        "min": -0.5893376469612122,
+        "max": 0.5277890563011169,
+        "norm_mean": 3.0416312217712402
+      }
+    },
+    "sentence-transformers/all-MiniLM-L6-v2": {
+      "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "model_info": {
+        "name": "sentence-transformers/all-MiniLM-L6-v2",
+        "description": "Fast English model - 384 dimensions",
+        "type": "english",
+        "size": "small",
+        "dimensions": 384,
+        "languages": "1 (English)"
+      },
+      "embedding_dimension": 384,
+      "tests": {
+        "albanian": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 0.23,
+            "avg_time_per_sentence": 0.046
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.076,
+            "avg_time_per_sentence": 0.0152
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.0825,
+            "avg_time_per_sentence": 0.0165
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.0671,
+            "avg_time_per_sentence": 0.01341
+          }
+        },
+        "english": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 0.061,
+            "avg_time_per_sentence": 0.01219
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.0596,
+            "avg_time_per_sentence": 0.01192
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.0563,
+            "avg_time_per_sentence": 0.01127
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.0561,
+            "avg_time_per_sentence": 0.01122
+          }
+        }
+      },
+      "similarity_scores": {
+        "albanian": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.7007
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.7068
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.8096
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.6949
+          }
+        ],
+        "english": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.8064
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.929
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.8699
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.8473
+          }
+        ]
+      },
+      "performance": {
+        "total_sentences": 40,
+        "total_time_seconds": 0.4142,
+        "throughput_sentences_per_second": 96.56,
+        "latency_ms_per_sentence": 10.36
+      },
+      "statistics": {
+        "shape": [
+          40,
+          384
+        ],
+        "mean": 6.460322038037702e-05,
+        "std": 0.051030997186899185,
+        "min": -0.19583114981651306,
+        "max": 0.20575444400310516,
+        "norm_mean": 1.0
+      }
+    },
+    "sentence-transformers/all-mpnet-base-v2": {
+      "model_name": "sentence-transformers/all-mpnet-base-v2",
+      "model_info": {
+        "name": "sentence-transformers/all-mpnet-base-v2",
+        "description": "High quality English - 768 dimensions",
+        "type": "english",
+        "size": "base",
+        "dimensions": 768,
+        "languages": "1 (English)"
+      },
+      "embedding_dimension": 768,
+      "tests": {
+        "albanian": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 1.2931,
+            "avg_time_per_sentence": 0.25861
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.307,
+            "avg_time_per_sentence": 0.0614
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.3402,
+            "avg_time_per_sentence": 0.06804
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.3273,
+            "avg_time_per_sentence": 0.06545
+          }
+        },
+        "english": {
+          "criminal_law": {
+            "sentences": 5,
+            "time_seconds": 0.1876,
+            "avg_time_per_sentence": 0.03751
+          },
+          "civil_law": {
+            "sentences": 5,
+            "time_seconds": 0.2025,
+            "avg_time_per_sentence": 0.04051
+          },
+          "procedural_law": {
+            "sentences": 5,
+            "time_seconds": 0.2073,
+            "avg_time_per_sentence": 0.04146
+          },
+          "labor_law": {
+            "sentences": 5,
+            "time_seconds": 0.2221,
+            "avg_time_per_sentence": 0.04442
+          }
+        }
+      },
+      "similarity_scores": {
+        "albanian": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.6477
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.7088
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.8274
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.6548
+          }
+        ],
+        "english": [
+          {
+            "pair": "pair_1",
+            "similarity": 0.8575
+          },
+          {
+            "pair": "pair_2",
+            "similarity": 0.9197
+          },
+          {
+            "pair": "pair_3",
+            "similarity": 0.9071
+          },
+          {
+            "pair": "pair_4",
+            "similarity": 0.8706
+          }
+        ]
+      },
+      "performance": {
+        "total_sentences": 40,
+        "total_time_seconds": 2.2176,
+        "throughput_sentences_per_second": 18.04,
+        "latency_ms_per_sentence": 55.44
+      },
+      "statistics": {
+        "shape": [
+          40,
+          768
+        ],
+        "mean": -0.00011952684144489467,
+        "std": 0.036084193736314774,
+        "min": -0.17743854224681854,
+        "max": 0.15310132503509521,
+        "norm_mean": 1.0
+      }
+    }
+  }
+}
